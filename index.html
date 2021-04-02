@@ -1,193 +1,171 @@
 <!DOCTYPE html>
 <html>
-<head>
-<link rel="stylesheet" type="text/css" href="style.css" />
-</head>
-<body>
-<div id="menu">
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
-</div>
-		  
-<section id="about" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-about me
-<br/>
-<br/>
-<br/>
-</section>
+  <head>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div id="menu" class="menuebar">
+      <a href="#ban1"><img id="logo" src="logo.png"></a>
+      <a href="#about">About Me</a>
+      <a href="#photos">My Photos</a> 
+      <a href="#playlist">My Playlist</a>
+      <a href="#like">Like</a>
+      <a href="#qrcoder">QR Code</a>
+      <a href="#spa">Q&A</a>
+      <a href="#contact">Conect Me</a>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <img id="ban1" src="ban1.png"/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
 
-<section id="photos" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my photos
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="playlist" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my playlist
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="like" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="qrcoder" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-scan my code
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="spa" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="contact" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<br/>
-<br/>
-</section>
+  <section id="about" class="section">
+    <br/>
+    <br/>
+    <br/>
+    <br/>   
+    <h2>About Me</h2>
+    <div id="profile">
+      <div id="imageprofil"><img src="https://unsplash.it/300/300" width="200"> </div>
+      <div id="details">
+        <pre>
+          My Name: Marco Tadeski 
+          Date of born: 01/02/1957
+          
 
 
-<script type="text/javascript">
-$(function(){
-  $("#nav a").click(function(e){
-    e.preventDefault();
-    $('html,body').scrollTo(this.hash,this.hash); 
-  });
-});
-</script>
-<script type="text/javascript">
- $(document).scroll(function() {
-    $('#menu').toggle($(this).scrollTop()>1000)
- });​
- </script>
-</body>
+        
+        
+        </pre> 
+      </div>
+    </div>
+
+
+
+    <br/>
+    <br/>
+    <br/>
+  </section>
+
+  <section id="photos" class="section">
+    <br/>
+    <br/>
+    <br/>
+    <br/>   
+    <h2>My Photos</h2>
+
+    <ul class="ulPhotos">
+      <li><img src="https://unsplash.it/300/300" width="200"> <p>image #4</p></li>
+      <li><img src="https://unsplash.it/400/400" width="200"/> <p>image #4</p></li>
+      <li><img src="https://unsplash.it/500/500" width="200"/> <p>image #4</p></li>
+      <li><img src="https://unsplash.it/200/200" width="200"/> <p>image #4</p></li>
+      <li><img src="https://unsplash.it/200/200" width="200"> <p>image #4</p></li>     
+    </ul>
+
+
+
+  
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+  </section>
+
+  <section id="playlist" class="section">
+    <br/>
+    <br/>
+    <br/>
+    <br/>   
+    <h2>My Playlist</h2>
+
+
+    <div class="container">
+      <div class="box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/mWBbiJKUoxQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        <span>Image</span>
+      </div>
+      <div class="box">
+        <img src="https://source.unsplash.com/1000x804">
+        <span>Hover</span>
+      </div>
+      <div class="box">
+        <img src="https://source.unsplash.com/1000x806">
+        <span>Effect</span>
+      </div>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+  </section>
+
+  <section id="like" class="section">
+    <br/>
+    <br/>
+    <br/>
+    <br/>   
+    <h2>Give Me A like</h2>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+  </section>
+
+  <section id="qrcoder" class="section">
+    <br/>
+    <br/>
+    <br/>
+    <br/>   
+    <h2>Scan My Code</h2>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+  </section>
+
+  <section id="spa" class="section">
+    <br/>
+    <br/>
+    <br/>
+    <br/>   
+    <h2>Ans</h2>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+  </section>
+
+  <section id="contact" class="section">
+    <br/>
+    <br/>
+    <br/>
+    <br/>   
+    <h2>Contact Me</h2>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+  </section>
+
+    <script type="text/javascript">
+      $(function(){
+        $("#nav a").click(function(e){
+          e.preventDefault();
+          $('html,body').scrollTo(this.hash,this.hash); 
+        });
+      });
+      </script>
+      <script type="text/javascript">
+      $(document).scroll(function() {
+          $('#menu').toggle($(this).scrollTop()>1000)
+      });​
+    </script>
+    </body>
 </html>

@@ -75,12 +75,13 @@ h2:after {
 }
 
 
-/* about me tab*/
+/* about me */
 
 .warpper{
   display:flex;
   flex-direction: column; /* menue in the top */
   align-items: center;
+  position: relative;
 }
 .tab{
   cursor: pointer; /* clike with mouse */
@@ -91,21 +92,20 @@ h2:after {
   border-radius:3px 3px 10px 0px;
   box-shadow: 0 0.5rem 0.8rem #555;
   font-family: cursive;
+  position: relative;
 }
 .panels{
-  
-  background:#fffffff6;
   box-shadow: 0 2rem 2rem #555;
   min-height:200px;
   width:100%;
   max-width:500px;
-  border-radius:3px;
-  overflow:hidden;
+  border-radius:9px;
   padding:40px;  
   font-family: cursive;
+  
 }
 .panel{
-  display:none;
+  display:none;  /* each tab with his info */
 }
 
 .radio{
@@ -120,29 +120,29 @@ h2:after {
 #two:checked ~ .tabs #two-tab,
 #three:checked ~ .tabs #three-tab{
   background:#fffffff6;
-  color:#000;
-  border-top: 3px solid #000;
+  border-top: 4px solid rgb(46, 117, 150);
 }
 .info{
-  padding: 40% 40%;
+  float:right;
+  margin:0 0 200px 0;
+  line-height: 2.5em;
+  
+}
+#profilPic{
+  float:left;
+  border-right:  25px solid rgb(255, 255, 255);
+
+}
+.hobbisImg{
+  text-align: center;
+}
+#aboutPic{
+  float:right;
+  border-top:  35px solid rgb(255, 255, 255);
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* photos */
 
 
 .ulPhotos{
@@ -190,10 +190,17 @@ p{
   margin:0 0 -20px 0;
   font-family: cursive;
 }
+span{
+  margin:0 0 -20px 0;
+  color: #555
+  
+  ;
+  font-family: cursive;
+}
 
 
 
-
+/* PLAYLIST */
 
 .container {
   display: flex;
@@ -227,8 +234,34 @@ p{
 }
 
 .box:hover { flex: 1 1 50%; }
-.box:hover > img {
-  width: 100%;
-  height: 100%;
-}
+
  
+
+
+
+#mytextarea{
+  max-width:  60%;
+}
+.form-control::placeholder {
+  font-family: cursive;  
+}
+
+.container1{
+  width: 655px;
+  margin: auto;
+  font-family: cursive;
+}
+
+
+button {
+  cursor: pointer; /* clike with mouse */
+  padding:10px 30px;
+  display:inline-block;
+  color:#1c527e80;
+  border-radius:3px 3px 10px 0px;
+  font-weight: bold;
+  font-family: cursive;
+  position: relative;
+  border-color:   #1c527e80;;
+  background-color: white;
+}

@@ -9,18 +9,6 @@
   background-color: white;
   margin-right: 0; 
   z-index: 500;
-  /* to the center */
-  /* left:50%; */
-  /* margin-left:-375px; negative margin equal to half the width */
-  }
-
-  #logo{
-    top: 0px;
-    left: 0px;
-    position: fixed;
-    z-index: 500;
-    float: left;
-    width: 13%;
   }
 
 
@@ -34,15 +22,24 @@
   padding: 1% 1%;
   font-size: 20px;
   font-weight: bold;
-  font-family: Monospace;
+  font-family: cursive;
   width: 10%; 
 }
 
 .menuebar a:hover {
   background-color:rgb(113, 158, 184);
   color: white;
-  cursor: point
 }
+
+#logo{
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  z-index: 500;
+  float: left;
+  width: 13%;
+}
+
 
 
 #ban1{
@@ -59,7 +56,7 @@ h2 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font: 700 2em/1.4 'Avenir', sans-serif;
+  font: 700 2em/1.4 cursive, sans-serif;
   color: rgb(63, 116, 138);
 }
 
@@ -78,23 +75,7 @@ h2:after {
 }
 
 
-#profile{
-  box-shadow:0 0 15px 0px rgb(63, 116, 138);
-  display: flex;   /* in the same line */
-  margin: auto;
-  width: 50%;
-  width: 50vw;
-  height: 10vw;
-  padding: 10%;
-}
-#imageprofil{
-  padding: 5% 5%;
-}
-#details{
-  padding: 8% 0%;
-}
-
-
+/* about me tab*/
 
 .warpper{
   display:flex;
@@ -109,6 +90,7 @@ h2:after {
   color:#1c527e80;
   border-radius:3px 3px 10px 0px;
   box-shadow: 0 0.5rem 0.8rem #555;
+  font-family: cursive;
 }
 .panels{
   
@@ -120,9 +102,9 @@ h2:after {
   border-radius:3px;
   overflow:hidden;
   padding:40px;  
+  font-family: cursive;
 }
 .panel{
-  
   display:none;
 }
 
@@ -141,8 +123,8 @@ h2:after {
   color:#000;
   border-top: 3px solid #000;
 }
-.mor{
-  align-items: center;
+.info{
+  padding: 40% 40%;
 }
 
 
@@ -206,6 +188,7 @@ h2:after {
 }
 p{
   margin:0 0 -20px 0;
+  font-family: cursive;
 }
 
 

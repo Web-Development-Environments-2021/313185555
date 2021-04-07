@@ -286,3 +286,8 @@ th, td {
   font-family: cursive;
   color: #555;
 }
+
+
+.emojionearea-standalone {
+  float: right;
+}

@@ -238,10 +238,11 @@ span{
 
  
 
-
+/* connect */
 
 #mytextarea{
   max-width:  60%;
+  font-family: cursive;
 }
 .form-control::placeholder {
   font-family: cursive;  
@@ -268,13 +269,11 @@ button {
 }
 
 
+/* ans */
 
-table, td, th {    
-  border: 1px solid #ddd;
-  text-align: left;
-}
 
 table {
+  border: 1px solid #ddd;
   border-collapse: collapse;
   width: 100%;
   table-layout: fixed;
@@ -282,12 +281,16 @@ table {
 }
 
 th, td {
+  border: 1px solid #ddd;
   padding: 9px;
   font-family: cursive;
   color: #555;
+  font-weight: normal;
 }
 
-
-.emojionearea-standalone {
-  float: right;
+h1{
+  font-family: cursive;
+  color: #555;
+  text-decoration: underline;
 }
+

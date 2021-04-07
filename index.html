@@ -19,7 +19,7 @@
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/he_IL/sdk.js#xfbml=1&version=v10.0" nonce="YvPbUItl"></script>
   <body>
     <div id="menu" class="menuebar">
-      <a href="#ban1"><img id="logo" src="logo.png"></a>
+      <a href="#ban1"><img id="logo" src="allPhotos/logo.png"></a>
       <a href="#about">About Me</a>
       <a href="#photos">My Photos</a> 
       <a href="#playlist">My Playlist</a>
@@ -32,7 +32,7 @@
     <br/>
     <br/>
     <br/>
-    <img id="ban1" src="ban1.png"/>
+    <img id="ban1" src="allPhotos/ban1.png"/>
     <br/>
     <br/>
     <br/>
@@ -55,12 +55,12 @@
       <input class="radio" id="three" name="group" type="radio">
       <div class="tabs">
       <label class="tab" id="one-tab" for="one">Profile</label>
-      <label class="tab" id="two-tab" for="two">hobbis</label>
-      <label class="tab" id="three-tab" for="three">more</label>
+      <label class="tab" id="two-tab" for="two">Hobbies</label>
+      <label class="tab" id="three-tab" for="three">More</label>
         </div>
       <div class="panels">
         <div class="panel" id="one-panel">
-          <img id="profilPic" src="https://unsplash.it/300/300" width="40%"  > 
+          <img id="profilPic" src="photosMarco/profile.png" width="40%"  > 
           <ul id="info" style="list-style: none">
             <li>My Name: Marco Tadeski</li>
             <br/>
@@ -75,9 +75,9 @@
         </div>
         <div class="panel" id="two-panel">
           <div class="hobbisImg">
-            <img id="guitarPic" src=guitar.jpg width="20%"  > 
-            <img id="guitarPic" src=ball.jpg width="20%" > 
-            <img id="guitarPic" src=sol.png width="20%" > 
+            <img id="guitarPic" src="allPhotos/guitar.png" width="20%"  > 
+            <img id="guitarPic" src="allPhotos/ball.png" width="20%" > 
+            <img id="guitarPic" src="allPhotos/sol.png" width="20%" > 
           </div>
           <br/>
           <p>Marco loves to listen to music, and play the guitar in his free time. When they were young he and his brother formed a band and performed at the neighborhood bar.
@@ -85,17 +85,17 @@
        </div>
         <div class="panel" id="three-panel">
           <ul id="info" style="list-style: none">
-            <img id="aboutPic" src=about.png width="35%"  > 
+            <img id="aboutPic" src="allPhotos/about.png" width="35%"  > 
             <li>Daughter: Sivan age 28, Mor age 26</li>
             <br/>
-            <li>Faivorit Food: Fries</li>
+            <li>Favorite Food: Fries</li>
             <br/>
-            <li>Faivorit TV Show: CSI</li>
+            <li>Favorite TV Show: CSI</li>
             <br/>
-            <li>Faivorit Animal: Dog</li>
+            <li>favorite Animal: Dog</li>
             <br/>
-            <li>Age: 64</li>
-          </ul>        </div>
+          </ul>
+        </div>
       </div>
     </div>
 
@@ -110,11 +110,11 @@
     <br/>
     <br/> 
     <ul class="ulPhotos">
-      <li><img src="https://unsplash.it/300/300" width="200"> <p>image #4</p></li>
-      <li><img src="https://unsplash.it/400/400" width="200"/> <p>image #4</p></li>
-      <li><img src="https://unsplash.it/500/500" width="200"/> <p>image #4</p></li>
-      <li><img src="https://unsplash.it/200/200" width="200"/> <p>image #4</p></li>
-      <li><img src="https://unsplash.it/200/200" width="200"> <p>image #4</p></li>     
+      <li><img src="photosMarco/army.png" width="200" height="200"> <p>#Army</p></li>
+      <li><img src="photosMarco/baby.png" width="200" height="200"/> <p>#Baby</p></li>
+      <li><img src="photosMarco/car.png" width="200" height="200"/> <p>#FirstCar</p></li>
+      <li><img src="photosMarco/policman.png" width="200" height="200"/> <p>#Policeman</p></li>
+      <li><img src="photosMarco/wife.png" width="200" height="200"> <p>#Wife</p></li>     
     </ul>
     <br/>
     <br/>
@@ -128,8 +128,6 @@
     <br/>
     <br/>   
     <h2>My Playlist</h2>
-
-
     <div class="container">
       <div class="box">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/xwtdhWltSIg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -174,10 +172,14 @@
     <br/>
     <br/>
     <h2>Scan My Code</h2>
+
+    <div class="warpper">
+      <br/>
+      <br/>
+    <img src='https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fweb-development-environments-2021.github.io%2Fassignment1-mortadeski%2F&chs=180x180&choe=UTF-8&chld=L|2' alt='qr code'><a href='https://www.qr-code-generator.com' border='0' style='cursor:default'  rel='nofollow'></a>    <br/>
     <br/>
-    <br/>
-    <br/>
-    <br/>
+    <p>Scan Me! </p>
+  </div>
   </section>
 
   <section id="spa" class="section">
@@ -187,6 +189,58 @@
     <br/>   
     <h2>Ans</h2>
     <br/>
+    <div class="warpper" >
+      <p> We would like to compare the three types of web. It seems that web 1.0 started in 1996, web 2.0 in 2006 and web 3.0 in 2016.
+      <br/>
+      The main difference between the types of webs:
+      <br/>
+      In version 1.0 the site was read-only, static, however version 2.0 concentrated on content
+      <br/>
+      creativity of users and producers while web 3.0 focused on linked data sets.</p>
+      <br/>
+      <br/>
+      <br/>
+      <table>
+        
+        <tr>
+          <th>Criterion</th>
+          <th>Web 1.0</th>
+          <th>Web 2.0</th>
+          <th>Web 3.0</th>
+        </tr>
+        <tr>
+          <td>Amount of users</td>
+          <td>Millions</td>
+          <td>Billions</td>
+          <td>Trillions</td>
+        </tr>
+        <tr>
+          <td>Types of websites</td>
+          <td>Personal web sites</td>
+          <td>Blogs </td>
+          <td>Semantic Blogs</td>
+        </tr>
+        <tr>
+          <td>Use of the Internet</td>
+          <td>The use is made mainly by companies in order to advertise themselves to the general public</td>
+          <td>This is where the collaboration begins, the publication of content that other people have published, the big companies serve as a platform for this. Share music (youtube), informatiom (Wikipedia) and more. </td>
+          <td>People create apps for people, and companies give a platform for people to advertise themselves, the entry of collaborative social networks (Facebook, eBay).</td>
+        </tr>
+        <tr>
+          <td>Search Engine</td>
+          <td>Fast but not always accurate, retrieving macro content.</td>
+          <td>Search engines retrieve tags with micro contents</td>
+          <td>A search that includes tagging that covers photos, blogs, and audio. However the labeling is mostly done in a Yiddish way and does not encompass a large part of the internet.</td>
+
+        </tr>
+      
+      </table>
+      
+
+      
+
+      </p>
+    </div>
     
     <br/>
     <br/>

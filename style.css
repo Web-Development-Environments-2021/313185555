@@ -189,6 +189,7 @@ h2:after {
 p{
   margin:0 0 -20px 0;
   font-family: cursive;
+  align-items: center;
 }
 span{
   margin:0 0 -20px 0;
@@ -264,4 +265,24 @@ button {
   position: relative;
   border-color:   #1c527e80;;
   background-color: white;
+}
+
+
+
+table, td, th {    
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+  width: 900px;  
+}
+
+th, td {
+  padding: 9px;
+  font-family: cursive;
+  color: #555;
 }
